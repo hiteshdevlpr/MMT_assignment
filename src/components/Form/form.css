@@ -1,0 +1,32 @@
+.post-form .input-container {
+    margin: 0 1rem 1rem;
+    width: 33%;
+    position: relative;
+  }
+.input-container input {
+  height: 2rem;
+  border-radius: 0.2rem;
+  border: 1px solid #bfbfbf;
+  width: 100%;
+}
+.post-form .error-message {
+  display: none;
+}
+.post-form .has-error {
+  color: red;  
+  display: block;          
+}
+.post-form textarea {
+  width: 97%;
+  margin-left: 1rem;
+  border-radius: .2rem;
+  height: 3rem;
+}
+.post-form button {
+    background: red;
+    border: none;
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: .25rem;
+    text-transform: uppercase;
+}
